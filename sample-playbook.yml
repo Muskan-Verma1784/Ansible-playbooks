@@ -3,7 +3,7 @@
   vars:
     myname : Muskan
   tasks: 
-    - name: Sample hello playbook
-      debug:
+  - name: Sample hello playbook
+    debug:
       msg : "Hello World from {{ myname }} !"
     
